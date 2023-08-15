@@ -1,0 +1,75 @@
+
+body {
+    font-family: Arial, sans-serif;
+   background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .registration-container {
+    background-color: #ebebeb;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    padding: 5%;
+  }
+
+  .registration-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .form-label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .form-select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .form-submit-btn {
+    width: 80%;
+    padding: 10px;
+    background-color: #7a4932;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    padding: 20px;
+    margin-left: 45px;
+  }
+
+  .form-submit-btn:hover {
+    background-color: #9d5b2c;
+    transform: scale(1.1);
+  }
+
+  .titulo2{
+    color: #602b11;
+    font-size: 28PX;
+  }
+
+  .introduçao{
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; padding: 20px; color: #602b11(0, 0, 0); }
+

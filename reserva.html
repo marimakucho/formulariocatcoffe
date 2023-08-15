@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reserva De Mesa - coffe cat!</title>
+<link rel="stylesheet" href="reserva.css">
+</head>
+<body> 
+  <div class="registration-container">
+    <div class="registration-header">
+        <h2 class="titulo2"> Faça Sua Reserva de Mesa</h2>
+      <p class="introduçao">Bem-vindo à nossa Cafeteria de Gato, onde o aconchego de 
+          um ambiente cativante se une à arte de saborear um café excepcional. Estamos 
+          entusiasmados em convidá-lo 
+          para explorar a experiência única de reserva de mesa que oferecemos..</p>
+    </div>
+
+    <section class="contact-form">
+      <form action="https://api.sheetmonkey.io/form/mxdeZdFhMXpsmeiZ6WpXfk" method="post">
+
+      <label class="form-label" for="date">Data:</label>
+      <input class="form-input" type="date" id="date" name="data" required>
+
+      <label class="form-label" for="time">Horário:</label>
+      <input class="form-input" type="time" id="time" name="time" required>
+
+      <label class="form-label" for="guest">Número de Convidado:</label>
+      <input class="form-input" type="number" id="guests" name="guests" required>
+      <br>
+      <br>
+      <br>
+<br>
+<button class="form-submit-btn" type="submit">Reservar Mesa</button>
+      </form>
+    </section>
+  </div>
+</body>
+</html>
